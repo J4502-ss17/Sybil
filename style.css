@@ -1,14 +1,22 @@
 /*styles go here*/
+html{
+  font-size: 100%;
+}
 
  p {
   color: #666666;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Arvo', serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
   }
 
+.italic {
+  font-style: italic;
+}
 
   h1{
-    font-family: Georgia, "Tines New Roman", serif;
-  }
+    font-family: 'Architects Daughter', cursive;
+}
 
 body{
   background-color: #add8e6;
@@ -36,11 +44,11 @@ body{
   text-align: center;
   text-decoration: none;
   padding: 4px;
-  font-family: Helvetica, Arial, sans-serif;
+font-family: 'Antic Slab', serif;
 }
 
  #nav a:hover, #nav a:active {
-  background-color: #ffff00;
+  background-color: #CEE430;
 }
 
 p{
