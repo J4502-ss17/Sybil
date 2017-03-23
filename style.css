@@ -79,10 +79,13 @@ footer {
 
 .aside-1 {
   background: grey;
+  margin: 5px;
+  padding: 5px;
 }
 
 .aside-2 {
   background: grey;
+  margin: 5px;
 }
 
 /*Setting up flexible boxes for our content*/
@@ -92,7 +95,7 @@ footer {
     flex-flow: row wrap;
 }
 
-header, article, aside, footer {
+header, article, aside,footer {
   flex: 1 100%;
   padding: 10px;
 }
@@ -110,12 +113,13 @@ header, article, aside, footer {
         border: none;
     }
 
+
     aside {
-        flex: 1 auto;
+        flex: 0.5 auto;
     }
 
     article {
-		flex: 20 0px;
+		flex: 12 0px;
 	}
 
     .aside-1 {
@@ -134,12 +138,10 @@ header, article, aside, footer {
         order: 4;
     }
 
+
     /*These styles apply to the floated image technique*/
-
-            ========================
-
-            img {
-                width: 45%;
+  article {
+                width: 65%;
                 float: left;
                 margin-right: 10px;
             }
@@ -164,12 +166,16 @@ header, article, aside, footer {
     }*/
 
     .image {
-        width: 45%;
+        width: 40%;
         margin-right: 10px;
     }
 
     .story {
-        width: 100%;
+        width: 45%;
     }
+
+    .first {
+      margin-top: 0;
+  }
 
 }
