@@ -7,7 +7,7 @@ html{
   color: #ccc;
   font-family: 'Arvo', serif;
   font-size: 1rem;
-  line-height: 1.5rem;
+  line-height: 1rem;
   text-align: center;
   }
 
@@ -116,15 +116,26 @@ header, article, aside,footer {
   padding: 10px;
 }
 
+.aside-1{
+  display:none;
+}
+img{
+  display: none;
+}
+
 @media screen and (min-width: 600px) {
 
       #container {
           width: 80%;
       }
 
-      .aside-1 {
+      .aside-1{
         display: block;
       }
+      img{
+        display:block;
+      }
+
 
 }
 
