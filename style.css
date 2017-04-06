@@ -121,6 +121,14 @@ header, article, aside,footer {
 }
 img{
   display: none;
+  object-fit: cover;
+  margin: auto;
+}
+
+.logo{
+object-position: center;
+width: 30%; height: 30%;
+text-align: center;
 }
 
 @media screen and (min-width: 600px) {
