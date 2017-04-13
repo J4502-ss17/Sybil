@@ -19,17 +19,24 @@ html{
     font-family: 'Roboto Slab', serif;
 }
 
+.menu-trigger {
+    order: 1;
+    font-size: 1.8em;
+    width: 2em;
+    color: #C45A2C;
+}
+
 body{
-  background-color: #3E94C2;
+  background-color: #213182;
 }
 
 .navigation{
   margin:0;
   list-style-type: none;
-  display: flex;
+  display: none;
   flex-flow: column;
   color:#ffffff;
-  background-color: #FF6357;
+  background-color: #C45A2C;
   font-weight: bold;
   text-align: center;
   text-decoration: none;
@@ -87,7 +94,7 @@ header {
 }
 
 footer {
-  background:#FF6357;
+  background:#C45A2C;
 }
 
 .aside-1 {
@@ -145,6 +152,7 @@ text-align: center;
       }
 
 
+
 }
 
 /*These styles activate when the page is larger than 800px wide*/
@@ -154,12 +162,20 @@ text-align: center;
     .navigation {
         flex-flow: row wrap;
         justify-content: flex-end;
+        display: flex;
     }
 
     .navigation a {
         border: none;
     }
 
+    .menu-trigger {
+          display: none;
+      }
+
+      nav ul {
+  display: flex;
+}
 
     aside {
         flex: 0.5 auto;
